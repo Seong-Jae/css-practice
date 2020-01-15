@@ -1,0 +1,142 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+body {
+    width:100%;
+    height:700px;
+    background-color:#F8F7FF;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-family: "Open Sans";
+  }
+
+  *{
+      box-sizing: border-box;
+  }
+
+  .phone{
+      width: 300px;
+      height:600px;
+      background-color: #F8F8F8;
+      border: 15px solid #FDFDFD;
+      border-radius: 35px;
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      margin-top: 10px;
+      padding:0px 20px;
+      box-shadoW:10px 10px 40px grey ;
+  }
+
+  .title{
+      font-size: 15px;
+      font-weight: 600;
+      margin-top:45px;
+      margin-bottom:60px;
+  }
+  
+  input{
+      width:240px;
+      height:35px;
+      border-radius: 5px;
+      padding-left: 10px;
+      font-size:12px;
+      font-weight:600;
+    border:0.4px solid gray;
+    opacity: 0.5;
+  }
+
+  input:first-child{
+      margin-bottom:25px;
+  }
+
+  .inform{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .inform span{
+      font-size: 11px;
+      font-weight: 400;
+      align-self: flex-end;
+      margin:16px 0px;
+  }
+
+  .fa-square{
+      position: relative;
+  }
+
+  .fa-check{
+      position: absolute;
+      color:red;
+      font-size:15px;
+      left:130px;
+  }
+
+  button{
+      border: 0;
+      outline: none;
+  }
+
+  a{
+      text-decoration: none;
+      color:inherit;
+  }
+  .buttons{
+      display: flex;
+      flex-direction:column;
+      margin-top:50px;
+      margin-bottom:30px;
+  }
+
+  .g-btn{
+      width:240px;
+      height:35px;
+      border-radius: 20px;
+      background-color: #E2283E;
+      color:white;
+      font-size: 9px;
+      font-weight: normal;
+      margin-bottom: 27px;
+  }
+
+  .s-btn{
+      width:110px;
+      height:36px;
+      color:white;
+      font-size: 9px;
+      border-radius: 20px;
+      background-color: #475A95;
+  }
+
+  .s-btn:last-child{
+    background-color: #5DA1F2;
+  }
+
+  .buttons__sns{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+  }
+
+  .or{
+      font-size: 11px;
+      font-weight:600;
+  }
+
+  .box{
+      align-self: flex-start;
+  }
+
+  .box span{
+      font-size:10px;
+  }
+
+  .red{
+      color:red;
+  }
+
+  .opa{
+      opacity: 0.5;
+      font-weight:600;
+  }
